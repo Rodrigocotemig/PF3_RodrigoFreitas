@@ -1,0 +1,75 @@
+main{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 97vw;
+  height: 97vh;
+}
+.textbox {
+  color: white;
+  display: flex;
+  width: 440px;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.textbox input {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border:none;
+  outline: 0;
+  font: 1rem arial;
+  text-align: center;
+}
+.textbox label {
+  font: 1.3rem arial;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://media.discordapp.net/attachments/911677723775234049/912752027568840734/fundo-verde-com-efeito-de-meio-tom-e-quadrados_23-2148661430.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 0 0 100px black;
+  width: 550px;
+  height: 700px;
+}
+.name{
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  font: 3rem arial;
+}
+.final{
+  box-shadow: 0px 0px 15px  black;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 10px;
+  font: 1.5rem arial;
+  box-sizing: border-box;
+  user-select: none;
+  background: white;
+  color: black;
+  padding: 20px;
+  width: 450px;
+  height: 200px;
+}
+button{
+  width: 450px;
+  height: 60px;
+  border-radius: 10px;
+  font: 2rem arial;
+  background: white;
+  color:  black;
+  box-shadow: 0px 0px 50px  black;
+  outline: none;
+  cursor: pointer;
+}
