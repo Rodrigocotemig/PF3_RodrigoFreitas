@@ -1,1 +1,0 @@
-calculadoradejuros.atwebpages.com
